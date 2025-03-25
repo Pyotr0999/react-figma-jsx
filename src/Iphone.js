@@ -1,3 +1,4 @@
+import imgv from "/.img/iphone_14_pro_finish_unselect_gallery_1_202209_GEO_US_removebg.png" 
 function Iphone() {
   return (
     <div class="iphone_14_img_color">
@@ -10,10 +11,9 @@ function Iphone() {
     </div>
     <div class="img_cont">
         <div class="img_parent">
-            {/* <div class="img">
-                <img src="img/iphone_14_pro_finish_unselect_gallery_1_202209_GEO_US_removebg.png" alt="">
-            </div> */}
-            <div className="nk-pox"></div>
+            <div class="img">
+                <img src={imgv} />
+            </div>
         </div>
     </div>
     <div class="bt">

@@ -1,3 +1,5 @@
+import logo from "./img/Group (1).jpg";
+
 function Nav() {
   return (
     <nav>
@@ -15,7 +17,7 @@ function Nav() {
 
 <div class="logo">
     <a href="#">
-        <div className="logo-pox"></div>
+        <img src={logo} />
     </a>
 </div>
 <a href="#" class="phone">
